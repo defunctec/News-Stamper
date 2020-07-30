@@ -76,4 +76,10 @@ Place searchme.php in the wp-content/theme directory..
 This becomes a template you can choose when making a new page.
 Call the page "Stamp" and choose the template "Search-News"
 
+## Final touch
+You need to add the plugin "Ultimate member" (free) to enable a custom box that users can fill in via registration and their user profile. This box adds the users address to the wordpress meta so we can call it automatically.
+The code pulls this address when a user is logged in to save them re-entering it over again.
+
+You need to call the box "get_user_crown_address" as meta.
+
 Use the shortcode [news-stamper] to show the form.
