@@ -69,6 +69,8 @@ function registration_form3()
 	$randomHash = hash('sha256', $getTime, false);
 	// Strip any slashes from metadata
 	$metaText = stripslashes("{\"Article\":[{\"Headline\":\"EDIT\",\"Link\":\"EDIT\"}]}");
+	// Enter the server owners protocol
+	$servOwnerProto = "YOURPROTOCOL";
 	// We do not want users to change metadata, so please use admin address (Server owner)
 	$servOwnerAddress = "ADMINOWNERADDRESS";
 
@@ -88,7 +90,7 @@ function registration_form3()
 					</div>
 					<div class="form-group" style="display:none">
 						<label for="nftname">NFT Protocol<span style="color:red;font-size: 15px;">*</span></label>
-						<input type="text" class="form-control" name="NFTName" value="nbp" id="NFTName" readonly required>
+						<input type="text" class="form-control" name="NFTName" value="'.$servOwnerProto.'" id="NFTName" readonly required>
 					</div>
 					<div class="form-group" style="display:none">
 						<label for="nftid">Token Hash<span style="color:red;font-size: 15px;">*</span></label>

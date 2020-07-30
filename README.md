@@ -41,6 +41,11 @@ Now enter the "News-Stamper" folder and open "crown.php".
 
 Change to your details
 ```
+$servOwnerProto = "YOURPROTOCOL";
+```
+
+Change to your details
+```
 $servOwnerAddress = "ADMINOWNERADDRESS";
 ```
 
