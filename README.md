@@ -1,5 +1,5 @@
 # News-Stamper
- Stamp News that find important to the Crown blockchain
+ Stamp News that you find important to the Crown blockchain
 
 ## Setting up Crown
 You need a VPS with (recommended) 2GB RAM, 1 CPU Core and 20GB hard drive.
